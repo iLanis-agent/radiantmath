@@ -1,0 +1,842 @@
+{
+ "cases": [
+  {
+   "fn": "tubing",
+   "args": [
+    "1000",
+    "12"
+   ],
+   "expect": "The floor of 1000 sq ft with tubing at 12 inches on center takes 1000 ft of tubing."
+  },
+  {
+   "fn": "loops",
+   "args": [
+    "1000",
+    "300"
+   ],
+   "expect": "The tubing of 1000 ft in loops of at most 300 ft takes 4 loops, the last one carrying 100 ft."
+  },
+  {
+   "fn": "manifold",
+   "args": [
+    "4",
+    "8"
+   ],
+   "expect": "The 4 loops on manifolds of 8 ports take 1 manifold, leaving 4 ports spare."
+  },
+  {
+   "fn": "flow",
+   "args": [
+    "4",
+    "0.5"
+   ],
+   "expect": "The 4 loops at 0.5 gpm each draw 2 gpm in all."
+  },
+  {
+   "fn": "tubing",
+   "args": [
+    "55548",
+    "17"
+   ],
+   "expect": "The floor of 55548 sq ft with tubing at 17 inches on center takes 39210.35 ft of tubing."
+  },
+  {
+   "fn": "tubing",
+   "args": [
+    "20644",
+    "13"
+   ],
+   "expect": "The floor of 20644 sq ft with tubing at 13 inches on center takes 19056 ft of tubing."
+  },
+  {
+   "fn": "tubing",
+   "args": [
+    "60597",
+    "19"
+   ],
+   "expect": "The floor of 60597 sq ft with tubing at 19 inches on center takes 38271.79 ft of tubing."
+  },
+  {
+   "fn": "tubing",
+   "args": [
+    "96526",
+    "17"
+   ],
+   "expect": "The floor of 96526 sq ft with tubing at 17 inches on center takes 68136 ft of tubing."
+  },
+  {
+   "fn": "tubing",
+   "args": [
+    "85661",
+    "22"
+   ],
+   "expect": "The floor of 85661 sq ft with tubing at 22 inches on center takes 46724.18 ft of tubing."
+  },
+  {
+   "fn": "tubing",
+   "args": [
+    "25679",
+    "23"
+   ],
+   "expect": "The floor of 25679 sq ft with tubing at 23 inches on center takes 13397.74 ft of tubing."
+  },
+  {
+   "fn": "tubing",
+   "args": [
+    "90825",
+    "23"
+   ],
+   "expect": "The floor of 90825 sq ft with tubing at 23 inches on center takes 47386.96 ft of tubing."
+  },
+  {
+   "fn": "tubing",
+   "args": [
+    "29208",
+    "6"
+   ],
+   "expect": "The floor of 29208 sq ft with tubing at 6 inches on center takes 58416 ft of tubing."
+  },
+  {
+   "fn": "tubing",
+   "args": [
+    "98504",
+    "21"
+   ],
+   "expect": "The floor of 98504 sq ft with tubing at 21 inches on center takes 56288 ft of tubing."
+  },
+  {
+   "fn": "tubing",
+   "args": [
+    "44425",
+    "12"
+   ],
+   "expect": "The floor of 44425 sq ft with tubing at 12 inches on center takes 44425 ft of tubing."
+  },
+  {
+   "fn": "tubing",
+   "args": [
+    "18535",
+    "14"
+   ],
+   "expect": "The floor of 18535 sq ft with tubing at 14 inches on center takes 15887.14 ft of tubing."
+  },
+  {
+   "fn": "tubing",
+   "args": [
+    "60109",
+    "24"
+   ],
+   "expect": "The floor of 60109 sq ft with tubing at 24 inches on center takes 30054.5 ft of tubing."
+  },
+  {
+   "fn": "tubing",
+   "args": [
+    "86684",
+    "20"
+   ],
+   "expect": "The floor of 86684 sq ft with tubing at 20 inches on center takes 52010.4 ft of tubing."
+  },
+  {
+   "fn": "tubing",
+   "args": [
+    "63457",
+    "20"
+   ],
+   "expect": "The floor of 63457 sq ft with tubing at 20 inches on center takes 38074.2 ft of tubing."
+  },
+  {
+   "fn": "tubing",
+   "args": [
+    "66709",
+    "24"
+   ],
+   "expect": "The floor of 66709 sq ft with tubing at 24 inches on center takes 33354.5 ft of tubing."
+  },
+  {
+   "fn": "tubing",
+   "args": [
+    "7092",
+    "5"
+   ],
+   "expect": "The floor of 7092 sq ft with tubing at 5 inches on center takes 17020.8 ft of tubing."
+  },
+  {
+   "fn": "tubing",
+   "args": [
+    "67352",
+    "17"
+   ],
+   "expect": "The floor of 67352 sq ft with tubing at 17 inches on center takes 47542.59 ft of tubing."
+  },
+  {
+   "fn": "tubing",
+   "args": [
+    "84539",
+    "11"
+   ],
+   "expect": "The floor of 84539 sq ft with tubing at 11 inches on center takes 92224.36 ft of tubing."
+  },
+  {
+   "fn": "tubing",
+   "args": [
+    "31681",
+    "22"
+   ],
+   "expect": "The floor of 31681 sq ft with tubing at 22 inches on center takes 17280.55 ft of tubing."
+  },
+  {
+   "fn": "tubing",
+   "args": [
+    "74253",
+    "20"
+   ],
+   "expect": "The floor of 74253 sq ft with tubing at 20 inches on center takes 44551.8 ft of tubing."
+  },
+  {
+   "fn": "tubing",
+   "args": [
+    "51180",
+    "20"
+   ],
+   "expect": "The floor of 51180 sq ft with tubing at 20 inches on center takes 30708 ft of tubing."
+  },
+  {
+   "fn": "tubing",
+   "args": [
+    "39847",
+    "9"
+   ],
+   "expect": "The floor of 39847 sq ft with tubing at 9 inches on center takes 53129.33 ft of tubing."
+  },
+  {
+   "fn": "tubing",
+   "args": [
+    "19315",
+    "19"
+   ],
+   "expect": "The floor of 19315 sq ft with tubing at 19 inches on center takes 12198.95 ft of tubing."
+  },
+  {
+   "fn": "tubing",
+   "args": [
+    "60071",
+    "9"
+   ],
+   "expect": "The floor of 60071 sq ft with tubing at 9 inches on center takes 80094.67 ft of tubing."
+  },
+  {
+   "fn": "tubing",
+   "args": [
+    "50093",
+    "7"
+   ],
+   "expect": "The floor of 50093 sq ft with tubing at 7 inches on center takes 85873.71 ft of tubing."
+  },
+  {
+   "fn": "loops",
+   "args": [
+    "63317.25",
+    "936"
+   ],
+   "expect": "The tubing of 63317.25 ft in loops of at most 936 ft takes 68 loops, the last one carrying 605.25 ft."
+  },
+  {
+   "fn": "loops",
+   "args": [
+    "68616.09",
+    "254"
+   ],
+   "expect": "The tubing of 68616.09 ft in loops of at most 254 ft takes 271 loops, the last one carrying 36.09 ft."
+  },
+  {
+   "fn": "loops",
+   "args": [
+    "63748.78",
+    "658"
+   ],
+   "expect": "The tubing of 63748.78 ft in loops of at most 658 ft takes 97 loops, the last one carrying 580.78 ft."
+  },
+  {
+   "fn": "loops",
+   "args": [
+    "38780.59",
+    "148"
+   ],
+   "expect": "The tubing of 38780.59 ft in loops of at most 148 ft takes 263 loops, the last one carrying 4.59 ft."
+  },
+  {
+   "fn": "loops",
+   "args": [
+    "80724.35",
+    "575"
+   ],
+   "expect": "The tubing of 80724.35 ft in loops of at most 575 ft takes 141 loops, the last one carrying 224.35 ft."
+  },
+  {
+   "fn": "loops",
+   "args": [
+    "45087.62",
+    "794"
+   ],
+   "expect": "The tubing of 45087.62 ft in loops of at most 794 ft takes 57 loops, the last one carrying 623.62 ft."
+  },
+  {
+   "fn": "loops",
+   "args": [
+    "90077.33",
+    "380"
+   ],
+   "expect": "The tubing of 90077.33 ft in loops of at most 380 ft takes 238 loops, the last one carrying 17.33 ft."
+  },
+  {
+   "fn": "loops",
+   "args": [
+    "33358.4",
+    "737"
+   ],
+   "expect": "The tubing of 33358.4 ft in loops of at most 737 ft takes 46 loops, the last one carrying 193.4 ft."
+  },
+  {
+   "fn": "loops",
+   "args": [
+    "78908.84",
+    "308"
+   ],
+   "expect": "The tubing of 78908.84 ft in loops of at most 308 ft takes 257 loops, the last one carrying 60.84 ft."
+  },
+  {
+   "fn": "loops",
+   "args": [
+    "84965.74",
+    "317"
+   ],
+   "expect": "The tubing of 84965.74 ft in loops of at most 317 ft takes 269 loops, the last one carrying 9.74 ft."
+  },
+  {
+   "fn": "loops",
+   "args": [
+    "46373.32",
+    "73"
+   ],
+   "expect": "The tubing of 46373.32 ft in loops of at most 73 ft takes 636 loops, the last one carrying 18.32 ft."
+  },
+  {
+   "fn": "loops",
+   "args": [
+    "63143.04",
+    "984"
+   ],
+   "expect": "The tubing of 63143.04 ft in loops of at most 984 ft takes 65 loops, the last one carrying 167.04 ft."
+  },
+  {
+   "fn": "loops",
+   "args": [
+    "12076.78",
+    "432"
+   ],
+   "expect": "The tubing of 12076.78 ft in loops of at most 432 ft takes 28 loops, the last one carrying 412.78 ft."
+  },
+  {
+   "fn": "loops",
+   "args": [
+    "68828.46",
+    "395"
+   ],
+   "expect": "The tubing of 68828.46 ft in loops of at most 395 ft takes 175 loops, the last one carrying 98.46 ft."
+  },
+  {
+   "fn": "loops",
+   "args": [
+    "82519.03",
+    "437"
+   ],
+   "expect": "The tubing of 82519.03 ft in loops of at most 437 ft takes 189 loops, the last one carrying 363.03 ft."
+  },
+  {
+   "fn": "loops",
+   "args": [
+    "62591.75",
+    "991"
+   ],
+   "expect": "The tubing of 62591.75 ft in loops of at most 991 ft takes 64 loops, the last one carrying 158.75 ft."
+  },
+  {
+   "fn": "loops",
+   "args": [
+    "40358.14",
+    "108"
+   ],
+   "expect": "The tubing of 40358.14 ft in loops of at most 108 ft takes 374 loops, the last one carrying 74.14 ft."
+  },
+  {
+   "fn": "loops",
+   "args": [
+    "34343.52",
+    "17"
+   ],
+   "expect": "The tubing of 34343.52 ft in loops of at most 17 ft takes 2021 loops, the last one carrying 3.52 ft."
+  },
+  {
+   "fn": "loops",
+   "args": [
+    "29030.39",
+    "501"
+   ],
+   "expect": "The tubing of 29030.39 ft in loops of at most 501 ft takes 58 loops, the last one carrying 473.39 ft."
+  },
+  {
+   "fn": "loops",
+   "args": [
+    "9082.36",
+    "208"
+   ],
+   "expect": "The tubing of 9082.36 ft in loops of at most 208 ft takes 44 loops, the last one carrying 138.36 ft."
+  },
+  {
+   "fn": "loops",
+   "args": [
+    "91758.29",
+    "661"
+   ],
+   "expect": "The tubing of 91758.29 ft in loops of at most 661 ft takes 139 loops, the last one carrying 540.29 ft."
+  },
+  {
+   "fn": "loops",
+   "args": [
+    "47982.02",
+    "191"
+   ],
+   "expect": "The tubing of 47982.02 ft in loops of at most 191 ft takes 252 loops, the last one carrying 41.02 ft."
+  },
+  {
+   "fn": "loops",
+   "args": [
+    "54312.91",
+    "935"
+   ],
+   "expect": "The tubing of 54312.91 ft in loops of at most 935 ft takes 59 loops, the last one carrying 82.91 ft."
+  },
+  {
+   "fn": "loops",
+   "args": [
+    "4411.76",
+    "58"
+   ],
+   "expect": "The tubing of 4411.76 ft in loops of at most 58 ft takes 77 loops, the last one carrying 3.76 ft."
+  },
+  {
+   "fn": "loops",
+   "args": [
+    "69934.47",
+    "329"
+   ],
+   "expect": "The tubing of 69934.47 ft in loops of at most 329 ft takes 213 loops, the last one carrying 186.47 ft."
+  },
+  {
+   "fn": "manifold",
+   "args": [
+    "979",
+    "59"
+   ],
+   "expect": "The 979 loops on manifolds of 59 ports take 17 manifolds, leaving 24 ports spare."
+  },
+  {
+   "fn": "manifold",
+   "args": [
+    "775",
+    "99"
+   ],
+   "expect": "The 775 loops on manifolds of 99 ports take 8 manifolds, leaving 17 ports spare."
+  },
+  {
+   "fn": "manifold",
+   "args": [
+    "627",
+    "12"
+   ],
+   "expect": "The 627 loops on manifolds of 12 ports take 53 manifolds, leaving 9 ports spare."
+  },
+  {
+   "fn": "manifold",
+   "args": [
+    "387",
+    "93"
+   ],
+   "expect": "The 387 loops on manifolds of 93 ports take 5 manifolds, leaving 78 ports spare."
+  },
+  {
+   "fn": "manifold",
+   "args": [
+    "702",
+    "99"
+   ],
+   "expect": "The 702 loops on manifolds of 99 ports take 8 manifolds, leaving 90 ports spare."
+  },
+  {
+   "fn": "manifold",
+   "args": [
+    "435",
+    "26"
+   ],
+   "expect": "The 435 loops on manifolds of 26 ports take 17 manifolds, leaving 7 ports spare."
+  },
+  {
+   "fn": "manifold",
+   "args": [
+    "395",
+    "8"
+   ],
+   "expect": "The 395 loops on manifolds of 8 ports take 50 manifolds, leaving 5 ports spare."
+  },
+  {
+   "fn": "manifold",
+   "args": [
+    "264",
+    "42"
+   ],
+   "expect": "The 264 loops on manifolds of 42 ports take 7 manifolds, leaving 30 ports spare."
+  },
+  {
+   "fn": "manifold",
+   "args": [
+    "116",
+    "14"
+   ],
+   "expect": "The 116 loops on manifolds of 14 ports take 9 manifolds, leaving 10 ports spare."
+  },
+  {
+   "fn": "manifold",
+   "args": [
+    "883",
+    "10"
+   ],
+   "expect": "The 883 loops on manifolds of 10 ports take 89 manifolds, leaving 7 ports spare."
+  },
+  {
+   "fn": "manifold",
+   "args": [
+    "196",
+    "77"
+   ],
+   "expect": "The 196 loops on manifolds of 77 ports take 3 manifolds, leaving 35 ports spare."
+  },
+  {
+   "fn": "manifold",
+   "args": [
+    "421",
+    "41"
+   ],
+   "expect": "The 421 loops on manifolds of 41 ports take 11 manifolds, leaving 30 ports spare."
+  },
+  {
+   "fn": "manifold",
+   "args": [
+    "390",
+    "94"
+   ],
+   "expect": "The 390 loops on manifolds of 94 ports take 5 manifolds, leaving 80 ports spare."
+  },
+  {
+   "fn": "manifold",
+   "args": [
+    "829",
+    "62"
+   ],
+   "expect": "The 829 loops on manifolds of 62 ports take 14 manifolds, leaving 39 ports spare."
+  },
+  {
+   "fn": "manifold",
+   "args": [
+    "211",
+    "86"
+   ],
+   "expect": "The 211 loops on manifolds of 86 ports take 3 manifolds, leaving 47 ports spare."
+  },
+  {
+   "fn": "manifold",
+   "args": [
+    "826",
+    "22"
+   ],
+   "expect": "The 826 loops on manifolds of 22 ports take 38 manifolds, leaving 10 ports spare."
+  },
+  {
+   "fn": "manifold",
+   "args": [
+    "481",
+    "65"
+   ],
+   "expect": "The 481 loops on manifolds of 65 ports take 8 manifolds, leaving 39 ports spare."
+  },
+  {
+   "fn": "manifold",
+   "args": [
+    "827",
+    "45"
+   ],
+   "expect": "The 827 loops on manifolds of 45 ports take 19 manifolds, leaving 28 ports spare."
+  },
+  {
+   "fn": "manifold",
+   "args": [
+    "529",
+    "17"
+   ],
+   "expect": "The 529 loops on manifolds of 17 ports take 32 manifolds, leaving 15 ports spare."
+  },
+  {
+   "fn": "manifold",
+   "args": [
+    "936",
+    "74"
+   ],
+   "expect": "The 936 loops on manifolds of 74 ports take 13 manifolds, leaving 26 ports spare."
+  },
+  {
+   "fn": "flow",
+   "args": [
+    "599",
+    "6.13"
+   ],
+   "expect": "The 599 loops at 6.13 gpm each draw 3671.87 gpm in all."
+  },
+  {
+   "fn": "flow",
+   "args": [
+    "279",
+    "1.34"
+   ],
+   "expect": "The 279 loops at 1.34 gpm each draw 373.86 gpm in all."
+  },
+  {
+   "fn": "flow",
+   "args": [
+    "399",
+    "9.44"
+   ],
+   "expect": "The 399 loops at 9.44 gpm each draw 3766.56 gpm in all."
+  },
+  {
+   "fn": "flow",
+   "args": [
+    "27",
+    "8.09"
+   ],
+   "expect": "The 27 loops at 8.09 gpm each draw 218.43 gpm in all."
+  },
+  {
+   "fn": "flow",
+   "args": [
+    "108",
+    "6.73"
+   ],
+   "expect": "The 108 loops at 6.73 gpm each draw 726.84 gpm in all."
+  },
+  {
+   "fn": "flow",
+   "args": [
+    "507",
+    "5.68"
+   ],
+   "expect": "The 507 loops at 5.68 gpm each draw 2879.76 gpm in all."
+  },
+  {
+   "fn": "flow",
+   "args": [
+    "585",
+    "1.77"
+   ],
+   "expect": "The 585 loops at 1.77 gpm each draw 1035.45 gpm in all."
+  },
+  {
+   "fn": "flow",
+   "args": [
+    "5",
+    "7.72"
+   ],
+   "expect": "The 5 loops at 7.72 gpm each draw 38.6 gpm in all."
+  },
+  {
+   "fn": "flow",
+   "args": [
+    "614",
+    "1.49"
+   ],
+   "expect": "The 614 loops at 1.49 gpm each draw 914.86 gpm in all."
+  },
+  {
+   "fn": "flow",
+   "args": [
+    "835",
+    "4.41"
+   ],
+   "expect": "The 835 loops at 4.41 gpm each draw 3682.35 gpm in all."
+  },
+  {
+   "fn": "flow",
+   "args": [
+    "468",
+    "8.44"
+   ],
+   "expect": "The 468 loops at 8.44 gpm each draw 3949.92 gpm in all."
+  },
+  {
+   "fn": "flow",
+   "args": [
+    "2",
+    "3.02"
+   ],
+   "expect": "The 2 loops at 3.02 gpm each draw 6.04 gpm in all."
+  },
+  {
+   "fn": "flow",
+   "args": [
+    "720",
+    "4.66"
+   ],
+   "expect": "The 720 loops at 4.66 gpm each draw 3355.2 gpm in all."
+  },
+  {
+   "fn": "flow",
+   "args": [
+    "925",
+    "1.5"
+   ],
+   "expect": "The 925 loops at 1.5 gpm each draw 1387.5 gpm in all."
+  },
+  {
+   "fn": "flow",
+   "args": [
+    "946",
+    "9.79"
+   ],
+   "expect": "The 946 loops at 9.79 gpm each draw 9261.34 gpm in all."
+  },
+  {
+   "fn": "flow",
+   "args": [
+    "453",
+    "1.6"
+   ],
+   "expect": "The 453 loops at 1.6 gpm each draw 724.8 gpm in all."
+  },
+  {
+   "fn": "flow",
+   "args": [
+    "473",
+    "9.1"
+   ],
+   "expect": "The 473 loops at 9.1 gpm each draw 4304.3 gpm in all."
+  },
+  {
+   "fn": "flow",
+   "args": [
+    "674",
+    "7.08"
+   ],
+   "expect": "The 674 loops at 7.08 gpm each draw 4771.92 gpm in all."
+  },
+  {
+   "fn": "flow",
+   "args": [
+    "499",
+    "2.03"
+   ],
+   "expect": "The 499 loops at 2.03 gpm each draw 1012.97 gpm in all."
+  },
+  {
+   "fn": "flow",
+   "args": [
+    "230",
+    "1.27"
+   ],
+   "expect": "The 230 loops at 1.27 gpm each draw 292.1 gpm in all."
+  }
+ ],
+ "errors": [
+  [
+   "tubing",
+   [
+    "0",
+    "12"
+   ]
+  ],
+  [
+   "tubing",
+   [
+    "1000",
+    "0"
+   ]
+  ],
+  [
+   "tubing",
+   [
+    "1000",
+    "25"
+   ]
+  ],
+  [
+   "tubing",
+   [
+    "1000",
+    "12.5"
+   ]
+  ],
+  [
+   "loops",
+   [
+    "0",
+    "300"
+   ]
+  ],
+  [
+   "loops",
+   [
+    "1000",
+    "0"
+   ]
+  ],
+  [
+   "manifold",
+   [
+    "0",
+    "8"
+   ]
+  ],
+  [
+   "manifold",
+   [
+    "4",
+    "0"
+   ]
+  ],
+  [
+   "flow",
+   [
+    "0",
+    "0.5"
+   ]
+  ],
+  [
+   "flow",
+   [
+    "4",
+    "0"
+   ]
+  ],
+  [
+   "flow",
+   [
+    "4",
+    "10.01"
+   ]
+  ],
+  [
+   "loops",
+   [
+    "100000.01",
+    "300"
+   ]
+  ]
+ ]
+}
