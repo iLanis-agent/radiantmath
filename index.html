@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Radiant Math - radiant floor tubing arithmetic</title>
+<style>
+  :root { --accent:#9c4f24; --ink:#241a12; --paper:#f8f5f1; --soft:#efe3d7; }
+  * { box-sizing:border-box; margin:0; }
+  body { font-family:Georgia, "Times New Roman", serif; background:var(--paper); color:var(--ink); line-height:1.55; }
+  main { max-width:660px; margin:0 auto; }
+  .boundary { background:#fdeaea; border-left:6px solid #b03030; color:#5c1c1c; border-radius:6px; padding:1rem 1.1rem; }
+  .boundary strong { display:block; margin-bottom:.3rem; }
+  body { padding:2.5rem 1.2rem; }
+  h1 { font-size:2.2rem; color:var(--accent); }
+  p.lede { font-size:1.12rem; margin:.9rem 0 1.6rem; }
+  .boundary { margin-bottom:1.6rem; }
+  section { background:var(--soft); border-left:5px solid var(--accent); border-radius:6px; padding:1.1rem 1.2rem; margin-bottom:1.2rem; }
+  h2 { font-size:1.18rem; margin-bottom:.5rem; }
+  section p { font-size:.98rem; }
+  a.btn { display:inline-block; margin-top:1.4rem; background:var(--accent); color:#fff; text-decoration:none; padding:.8rem 1.6rem; border-radius:999px; font-size:1.05rem; }
+  footer { margin-top:2.2rem; font-size:.85rem; color:#8a6b52; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Radiant Math</h1>
+  <p class="lede">The floor of 1000 sq ft with tubing at 12 inches on center takes 1000 ft of tubing.</p>
+  <div class="boundary">
+    <strong>Boundary: arithmetic only</strong>
+    Radiant Math counts tubing with multiplication and division: the length a floor takes at a spacing, the whole loops and what the last one carries, the manifolds and the spare ports, and the total flow from the per-loop flow. It applies the counting as written, so it has not read your heat loss and does not know your floor build-up, your water temperature, your manifold location or your pump curve, and it gives no verdict that a layout heats the room. Every number here is your own entry.
+  </div>
+  <p class="lede" style="font-size:1rem">Starting examples: 1000 sq ft at 12 inches on center, loops of at most 300 ft, manifolds of 8 ports, and half a gallon a minute a loop.</p>
+  <section>
+    <h2>The tubing truth</h2>
+    <p>The floor of 1000 sq ft with tubing at 12 inches on center takes 1000 ft of tubing.</p>
+  </section>
+  <section>
+    <h2>The loops truth</h2>
+    <p>The tubing of 1000 ft in loops of at most 300 ft takes 4 loops, the last one carrying 100 ft.</p>
+  </section>
+  <section>
+    <h2>The manifold and flow truths</h2>
+    <p>The 4 loops on manifolds of 8 ports take 1 manifold with 4 ports spare, and at 0.5 gpm each they draw 2 gpm in all.</p>
+  </section>
+  <a class="btn" href="app.html">Run your numbers</a>
+  <footer>Radiant Math is exact arithmetic over the numbers you enter, nothing more.</footer>
+</body>
+</html>
